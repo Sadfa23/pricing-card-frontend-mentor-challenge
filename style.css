@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size : 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h2,h4,p {
+  margin: 0;
+}
+body {
+  padding: 20px
+}
+
+#card {
+  width:600px;
+  height:400px;
+  box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.44);
+  border-radius: 5px;
+  overflow: hidden;
+}
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+#bottom-left-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+#bottom-right-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #28b8b4;
+  opacity:.7;
+  padding: 25px;
+}
+#top-section h2 {
+  color: #2ab2af;
+  margin-bottom: 20px
+}
+#top-section h4 {
+  color:#c0df34;
+  margin-bottom: 10px
+}
+#top-section p {
+  color: #98a6bd;
+}
+button {
+  color: white;
+  background-color:#c0df34;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+#price {
+  font-weight: 700;
+  font-size : 1.4rem;
+}
+#bottom-left-section h4 {
+  margin-bottom: 25px;
+}
+#price-frequency, #price {
+  display: inline-block
+}
+#price-container{
+  margin-bottom:10px ;
+}
+#price-frequency {
+  position: relative;
+  top: -3px;
+  font-size: .8rem;
+  opacity: .7;
+  margin-left: 5px;
+}
+#bottom-left-section p {
+  font-size: .8rem;
+  margin-bottom: 40px
+}
+ul{
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #a9c42d;
+  transform: scale(1.02)
+}
